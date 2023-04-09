@@ -1,20 +1,62 @@
 :root {
-    --themecolor:rgba(46, 50, 75, 0.999);
+    --themecolor:rgba(100, 98, 98, 0.999);
     --font-size: 70px;
-    --secondarycolor:rgb(0, 187, 255);
-
-
+    --secondarycolor:rgb(255, 187, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 
+
+
+
 .header {
-    background: 800px 1000px var(--themecolor);
-    color:var(--secondarycolor);
-    padding: 20px;
-    font-size: 50px;
-    width: 100%;
-    margin:0px 0px 0px;
-    display: inline;
+    width:100%;
+    height:80px;
+    display: block;
+    background-color: var(--themecolor);
+    text-align: right;
 
     
 
 }
+
+.name_container {
+    height: 40px;
+    display: block;
+    float: left;
+    color: var(--themecolor);
+    background-color: var(--secondarycolor);
+    padding: 5px 20px ;
+    margin-top: 15px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.nav_bar {
+    height: 20px;
+    width: 600px;
+    display: inline-flex;
+    margin: right;
+    color: var(--secondarycolor);
+    font-weight: bold;
+    font-size: 23px;
+    padding: 30px;
+    background-color:var(--themecolor);
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_bar a {
+    margin-right: 20px;
+
+}
+    
+.Image_Design1 {
+    image-resolution: 1080;
+    width: 1535px;
+    height: 350px;
+}
+    
