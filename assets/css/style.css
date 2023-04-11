@@ -56,8 +56,9 @@
     
 .Image_Design1 {
     image-resolution: 1080;
-    width: 1535px;
-    height: 350px;
+    width: 1519px;
+    height: 400px;
+    
 }
 
 .container {
@@ -95,4 +96,177 @@
     font-size: 20px;
     text-align: left;
     font-weight: bold;
+    margin-bottom: 10px;
 }
+
+.container h3 {
+    margin-right: 20px;
+    margin-left: 230px;
+    padding-right: 12px;
+    font-size: 40px;
+    vertical-align: auto;
+    margin-bottom: 2500px;
+}
+
+.second-vertical-line {
+    border-left: 3px solid rgba(100, 98, 98, 0.999);
+    height: 1300px;
+    margin: 0px 0px 80px 0px;
+    position: relative;
+    top: -630px;
+
+    
+
+    
+}
+
+.workbox-one {
+    display: block;
+    width: 1000px;
+    height: 700px;
+    border: 5px solid var(--secondarycolor);
+    margin-left: 25px;
+    position: relative;
+    top: -700px;
+    
+    
+    
+    
+}
+
+.workbox-one img {
+    width: 1000px;
+    height: 700px;
+}
+
+.innerbox-one {
+    display: block;
+    background-color: var(--secondarycolor);
+    width: 200px;
+    height: 80px;
+    margin-top: 500px;
+    text-align: center;
+    font-weight:bold ;
+    font-size: 20px;
+    position: relative;
+    top: -650px;
+    
+}
+
+.workbox-two {
+    display: block;
+    width: 480px;
+    height: 250px;
+    background-color: var(--themecolor);
+    border: 5px solid var(--secondarycolor);
+    float: left;
+    margin-left: 25px;
+    position: relative;
+    top: -650px;
+}
+
+.workbox-two img {
+    width: 480px;
+    height: 250px;
+}
+
+.innerbox-two {
+    display: block;
+    background-color: var(--secondarycolor);
+    width: 150px;
+    height: 60px;
+    margin-top: 150px;
+    text-align: center;
+    font-weight:bold ;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+
+}
+
+.workbox-three {
+    display: block ;
+    width: 480px;
+    height: 250px;
+    border: 5px solid var(--secondarycolor);
+    margin-left: 30px;
+    float: left;
+    position: relative;
+    top: -650px;
+}
+
+.workbox-three img {
+    width: 480px;
+    height:250px ;
+}
+
+.innerbox-three {
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin-top: 150px;
+    text-align: center;
+    font-weight:bold ;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+    background-color: var(--secondarycolor);
+}
+
+.workbox-four {
+    display: block;
+    width: 480px;
+    height: 250px;
+    background-color: var(--themecolor);
+    border: 5px solid var(--secondarycolor);
+    float: left;
+    
+}
+
+.workbox-four img {
+    width: 480px;
+    height: 250px;
+}
+
+.innerbox-four {display: block;
+    background-color: var(--secondarycolor);
+    width: 150px;
+    height: 60px;
+    margin-top: 150px;
+    text-align: center;
+    font-weight:bold ;
+    font-size: 20px;
+
+}
+
+
+
+.workbox-five {
+    display: block ;
+    width: 480px;
+    height: 250px;
+    background-color: var(--themecolor);
+    border: 5px solid var(--secondarycolor);
+    
+
+}
+
+.workbox-five img {
+    width: 480px;
+    height: 250px;
+}
+
+.innerbox-five {
+background-color: var(--secondarycolor);
+width: 150px;
+height: 60px;
+margin-top: 150px;
+text-align: center;
+font-weight:bold ;
+font-size: 20px;
+}
+
+
+
+
+
