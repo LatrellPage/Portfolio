@@ -1,5 +1,5 @@
 :root {
-    --themecolor:rgba(100, 98, 98, 0.999);
+    --themecolor:rgb(71, 74, 71);
     --font-size: 70px;
     --secondarycolor:rgb(255, 187, 0);
 }
@@ -51,6 +51,7 @@
 
 .nav_bar a {
     margin-right: 20px;
+    
 
 }
     
@@ -64,12 +65,16 @@
 .container {
     display: flex;
     align-items: center;
+    
+    
   }
   
   .vertical-line {
     border-left: 3px solid rgba(100, 98, 98, 0.999);
-    height: 150px;
+    height: 650px;
     margin: 10px 20px 0px 30px;
+    position: relative;
+    top: -500px;
 
     
   }
@@ -79,13 +84,31 @@
 .plate {
     text-align: left;
     margin-top: 70px;
+    margin-left: 10px;
+    color: var(--secondarycolor);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-bottom: 100px;
+    text-decoration: none;
+    
+}
+
+.bowl {
+    text-align: left;
+    margin-top: 70px;
     margin-left: 150px;
     color: var(--secondarycolor);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     padding-bottom: 100px;
-    
 }
+
+
+.container h2{
+    position: relative;
+    top: -770px;
+}
+
 
 .container p{
     display: block;
@@ -97,6 +120,8 @@
     text-align: left;
     font-weight: bold;
     margin-bottom: 10px;
+    position: relative;
+    top: -240px;
 }
 
 .container h3 {
@@ -106,6 +131,8 @@
     font-size: 40px;
     vertical-align: auto;
     margin-bottom: 2500px;
+    position: relative;
+    top: -400px;
 }
 
 .second-vertical-line {
@@ -113,22 +140,26 @@
     height: 1300px;
     margin: 0px 0px 80px 0px;
     position: relative;
-    top: -630px;
-
-    
-
-    
+    top: -1000px;
 }
 
 .workbox-one {
     display: block;
     width: 1000px;
     height: 700px;
-    border: 5px solid var(--secondarycolor);
+    border: 0px solid var(--secondarycolor);
     margin-left: 25px;
     position: relative;
-    top: -700px;
+    top: -1100px;
+    border-radius: 5%;
     
+    
+    
+    
+}
+
+.workbox-one:hover {
+    height: 703px;
     
     
     
@@ -137,20 +168,30 @@
 .workbox-one img {
     width: 1000px;
     height: 700px;
+    border-radius: 5%;
+    
 }
 
 .innerbox-one {
     display: block;
     background-color: var(--secondarycolor);
     width: 200px;
-    height: 80px;
+    height: 60px;
     margin-top: 500px;
     text-align: center;
     font-weight:bold ;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     top: -650px;
     
+    
+    
+}
+
+.innerbox-one p {
+    position: relative;
+    top: -60px;
+    margin-left:50px
 }
 
 .workbox-two {
@@ -158,16 +199,19 @@
     width: 480px;
     height: 250px;
     background-color: var(--themecolor);
-    border: 5px solid var(--secondarycolor);
     float: left;
     margin-left: 25px;
     position: relative;
-    top: -650px;
+    top: -1050px;
+    border-radius: 5%;
 }
+
+
 
 .workbox-two img {
     width: 480px;
     height: 250px;
+    border-radius: 5%;
 }
 
 .innerbox-two {
@@ -188,16 +232,18 @@
     display: block ;
     width: 480px;
     height: 250px;
-    border: 5px solid var(--secondarycolor);
     margin-left: 30px;
     float: left;
     position: relative;
-    top: -650px;
+    top: -1050px;
+    border-radius: 5%;
 }
+
 
 .workbox-three img {
     width: 480px;
-    height:250px ;
+    height:250px;
+    border-radius: 5%;
 }
 
 .innerbox-three {
@@ -218,17 +264,24 @@
     width: 480px;
     height: 250px;
     background-color: var(--themecolor);
-    border: 5px solid var(--secondarycolor);
     float: left;
+    margin-left: 25px;
+    position: relative;
+    top: -1000px;
+    border-radius: 5%;
     
 }
+
+
 
 .workbox-four img {
     width: 480px;
     height: 250px;
+    border-radius: 5%;
 }
 
-.innerbox-four {display: block;
+.innerbox-four {
+    display: block;
     background-color: var(--secondarycolor);
     width: 150px;
     height: 60px;
@@ -236,6 +289,8 @@
     text-align: center;
     font-weight:bold ;
     font-size: 20px;
+    position: relative;
+    top: -250px;
 
 }
 
@@ -245,15 +300,19 @@
     display: block ;
     width: 480px;
     height: 250px;
-    background-color: var(--themecolor);
-    border: 5px solid var(--secondarycolor);
-    
-
+    margin-left: 30px;
+    float: left;
+    position: relative;
+    top: -1000px;
+    border-radius: 5%;
 }
+
+
 
 .workbox-five img {
     width: 480px;
     height: 250px;
+    border-radius: 5%;
 }
 
 .innerbox-five {
@@ -264,9 +323,215 @@ margin-top: 150px;
 text-align: center;
 font-weight:bold ;
 font-size: 20px;
+position: relative;
+top: -250px;
+}
+
+.third-vertical-line {
+    border-left: 3px solid rgba(100, 98, 98, 0.999);
+    height: 150px;
+    margin: 10px 20px 0px 30px;
+    margin-left: 15px;
+    
+}
+
+.last-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -1700px;
+    overflow: auto;
+    
+}
+
+.last-box {
+    width: 1000px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    
+}
+
+.last-plate {
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 130px;
+    color: var(--secondarycolor);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-bottom: 100px;
+    
+}
+
+.me-image {
+    display: block;
+    width: 1000px;
+    height: 500px;
+    margin-left: 385px;
+    margin-top: 25px;
+    border-radius: 5%;
+    
+}
+
+.me-image img {
+    width: 1000px;
+    height: 500px;
+    border-radius: 5%;
 }
 
 
+@media all and (max-width:414px){
+    
+    .header {
+        height:150px;
+        width:1520px;
+    }
+}
+
+@media all and (max-width:941px) {
+    .header {
+        width: 1520px;
+    }
+}
+    
+@media all and (max-width:1519px) {
+    .header {
+        width:1519px ;
+    }
+}
+
+@media all and (max-width: 280px) {
+    .header {
+        width:1130px;
+    }
+
+
+
+    .Image_Design1 {
+        width: 1130px;
+    }
+    
+    .bowl {
+        margin-left: 10px;
+    }
+
+    .me-image {
+        margin-left: 190px;
+        width:920px ;
+
+    }
+
+    .me-image img {
+        width: 920px;
+        margin-right: 110px;
+    }
+
+    .plate {
+        position: relative;
+        left: -220px;
+    }
+
+    .second-vertical-line {
+        position: relative;
+        left: -210px;
+    }
+
+    .workbox-one {
+        position: relative;
+        left: -210px;
+        
+    }
+
+    .workbox-one img {
+        position: relative;
+        left: -70px;
+        width: 930px;
+        
+        
+    }
+
+    .workbox-two {
+     position: relative;
+     left: -200px;
+    width: 440px;
+    }
+
+    .workbox-two img {
+    width: 440px;
+    }
+
+    .workbox-three {
+        position: relative;
+        left: -200px;
+       width: 440px;
+    }
+   
+
+    .workbox-three img {
+       width: 440px;
+    }
+
+    .workbox-four {
+        position: relative;
+        left: -200px;
+       width: 440px;
+    }
+   
+
+    .workbox-four img{
+       width: 440px;
+    }
+
+    .workbox-five {
+        position: relative;
+        left: -200px;
+       width: 440px;
+    }
+   
+
+    .workbox-five img {
+       width: 440px;
+    }
+    
+    .last-plate {
+        font-size: 30px;
+    }
+
+    .last-container {
+        position: relative;
+        left: -100px;
+    }
+
+    .last-box {
+        width: 800px;
+    }
+
+    .third-vertical-line {
+        position: relative;
+        left: -35px;
+    }
+
+    .container p {
+        width: 98%;
+    }
+
+    .nav_bar  {
+        margin-left: 200px; 
+        font-size: 40px;
+        
+        
+    }
+
+
+
+
+
+
+}
 
 
 
