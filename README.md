@@ -9,7 +9,7 @@ Welcome to my personal portfolio webpage, where you can find all of my web proje
 - Contact Information
 Here are some of the web projects that I have developed:
 
-Project 1: This project showcases simple HTML, and CSS skills. Along with webpage accesibility. (https://anferneepage.github.io/FirstWeekChallenge/)
+Project 1: This project showcases simple HTML, and CSS skills. Along with webpage accesibility. https://latrellpage.github.io/Portfolio/
 
 Project 2: A brief description of Project 2. (View Project)
 Project 3: A brief description of Project 3. (View Project)
